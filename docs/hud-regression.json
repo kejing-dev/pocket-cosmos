@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "rendered_updates": 320,
+  "rect": [
+    816,
+    816,
+    1385,
+    868
+  ],
+  "changed_fraction": 0.0,
+  "ink_pixels": 627,
+  "max_rgb_difference": 0,
+  "scope": "Fixed-camera native debug-build HUD only; no image registration. Release signature and unit tests verified separately.",
+  "debug_apk_sha256": "5ef7d1fc0f5820e3ec2e6d1da9890fcee079361b87fe8afc0fa69d6dcb5f20a2",
+  "release_apk_sha256": "3530d07ca207ed2a91c606ccfd7c43b1817165471f97b3e6fc83861dfcfeb971",
+  "hud_source_sha256": "1d6565ce264d20228be2f5d43ba1b65abb1ea7f146d218b39c32285b284d781b",
+  "captures": {
+    "github-B-baseline.png": "99aa7cad43518246be87e3dc1943231b6553cc0ae168f733e1f6d66640716377",
+    "github-B-after.png": "99aa7cad43518246be87e3dc1943231b6553cc0ae168f733e1f6d66640716377"
+  }
+}

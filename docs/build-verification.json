@@ -1,0 +1,30 @@
+{
+  "application": "Pocket Cosmos",
+  "package": "com.kejing.spatialarcade.orbit",
+  "versionName": "0.11",
+  "versionCode": 11,
+  "tag": "v0.11.0",
+  "buildType": "release",
+  "debuggable": false,
+  "tests": {
+    "tests": 75,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "apk": "Pocket-Cosmos-v0.11.0-arm64.apk",
+  "bytes": 43891645,
+  "sha256": "3530d07ca207ed2a91c606ccfd7c43b1817165471f97b3e6fc83861dfcfeb971",
+  "signing": "Dedicated local release key; certificate in signature.txt. No private key is published.",
+  "assets": [
+    "assets/dexopt/baseline.prof",
+    "assets/dexopt/baseline.profm",
+    "assets/B-pocket-pinball.glb",
+    "assets/orbit_body.wav",
+    "assets/orbit_comet.wav",
+    "assets/orbit_flipper.wav",
+    "assets/orbit_launch.wav",
+    "assets/orbit_rail.wav"
+  ],
+  "nativeReleaseAcceptance": "Pending; existing screenshots are accepted native development baseline evidence."
+}

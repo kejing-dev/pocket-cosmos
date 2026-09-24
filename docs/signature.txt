@@ -1,0 +1,18 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v3.2 scheme (APK Signature Scheme v3.2): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+V2 Signer: certificate DN: CN=Pocket Cosmos Release
+V2 Signer: certificate SHA-256 digest: 272a7348fe2e622a4ef416b841b976a4a2265bd6ed9e9f3608a182280d9a4764
+V2 Signer: certificate SHA-1 digest: 1c77522c53ea2e2688856651de923b3efc80baf6
+V2 Signer: certificate MD5 digest: ff5a6acc97be9ddb1dfe0178cb822001
+V2 Signer: key algorithm: RSA
+V2 Signer: key size (bits): 3072
+V2 Signer: public key SHA-256 digest: 44a6b86b4a0f90b122d3628f8d84e11ad90b56e5ee2132ee46816e0d332f0eca
+V2 Signer: public key SHA-1 digest: 0935b3de4228f30dea8370448787e2062025f68f
+V2 Signer: public key MD5 digest: 96f22fe23c61a30ba9631fbb15724f1e
