@@ -14,26 +14,16 @@ android {
         resValue("string", "spatial_window_size", "1180x1250x800")
         minSdk = 35
         targetSdk = 35
-        versionCode = 11
-        versionName = "0.11"
+        versionCode = 12
+        versionName = "0.11.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         ndk { abiFilters.add("arm64-v8a") }
     }
 
-    val releaseStore = providers.environmentVariable("ARCADE_KEYSTORE_PATH").orNull
-    signingConfigs {
-        if (releaseStore != null) create("distribution") {
-            storeFile = file(releaseStore)
-            storePassword = providers.environmentVariable("ARCADE_KEYSTORE_PASSWORD").get()
-            keyAlias = providers.environmentVariable("ARCADE_KEY_ALIAS").get()
-            keyPassword = providers.environmentVariable("ARCADE_KEY_PASSWORD").get()
-        }
-    }
     buildTypes {
         release {
             isDebuggable = false
-            if (releaseStore != null) signingConfig = signingConfigs.getByName("distribution")
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
